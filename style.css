@@ -1,0 +1,197 @@
+body{
+    background-color: #a2ccb3;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.felix{
+    background-color: rgb(139, 175, 160);
+    width: 78%;
+    margin: 0 auto;
+}
+
+h1.title{
+    text-transform: uppercase;
+    color: red;
+    text-align: left;
+    font-weight: 700;
+    font-size: 47px;
+    padding: 21px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: rgb(65, 155, 125);
+    font-weight: 800;
+    transition: .2s ease-in-out;
+}
+/* Navigation bar styles */
+
+
+.navbar{
+    background-color: burlywood;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+
+
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 25px 10px 25px;
+    border-right:  7px solid #5E239D;
+
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: blue;
+    text-transform: lowercase;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.navbar ul li:hover a {
+    background-color:rgb(71, 218, 57);
+    text-decoration: underline;
+    text-align: center;
+    margin: auto;
+    transition: .7s ease-in-out;
+}
+ /* slider section styling */
+ .slider{
+    background-image: url('../images/2');
+    min-height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.slider h2{
+    color:rgb(2, 3, 7);
+    background-color:skyblue;
+    border: rgb(128, 77, 175) ;
+    padding: 7px;
+    border-radius: 20%;
+    cursor: grab;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    opacity: 0.9;
+
+
+
+}
+.slider button{
+    background-color: bisque;
+    border-radius: 12%;
+    border: #a2ccb3;
+    padding: 12px 42px;
+    cursor:grabbing;
+    font-size: medium;
+   background-image: url(); 
+}
+.slider button:hover{
+    background-color: #446953;
+    transition: 0s ease-in-out;
+}
+.login{
+    width: 280px;  
+    height: 370px;
+    background: rgb(7, 7, 7);
+    color: rgb(29, 228, 46);
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 25px;
+    border-radius: 10px;
+    
+}
+
+h1{
+margin: 0%;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+
+
+}
+.login h1{
+
+    background-color: tomato;
+    border-radius: 6px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.login input{
+
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 4px;
+
+}
+
+.login input[type="text"], inpute[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    height: 20px;
+    font-size: 16px;
+
+}
+
+.login input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: #000;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(42, 19, 173);
+    color: #000;
+    font-weight: bold;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: lightsalmon;
+}
+
+.login a:hover{
+    color: rgb(196, 30, 168);
+}
+.body{
+    background-image: url(./assets/bridge-3825439_1920.jpg);
+}
+.credit{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,121,9,1) 41%, rgba(0,212,255,1) 100%);
+}
+.credit p{
+    color:red;
+    font-size: 24px;
+}
+.credit:hover{
+    transform: rotate(5deg);
+    transition-duration: .2s;
+}
